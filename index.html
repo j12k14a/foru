@@ -1,129 +1,55 @@
 <!DOCTYPE html>
 <html lang="id">
-<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link href="https://feeldreams.github.io/heihbd/style.css" rel="stylesheet" type="text/css" />
-  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
-  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
-  
 <head>
-<title>Happy Birthday</title>
-<link rel="icon" type="image/x-icon" href="https://malasid.github.io/favicon.png">
-<meta name="description" content="HTML Bucin Malas.id">
-<!-- 
-  Made with love by Jawsyan!
-  
-     Blog: https://PalingIT.com
-     Instagram: @rayyarrr
-     TikTok: @rayy4r
-     Email: rayyar0703@gmail.com
-     
-  Thanks to all <3
--->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Hari Valentine!</title>
+    <style>
+        body {
+            background-color: #ffcccb;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: #d50000;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 50px;
+            font-size: 3em;
+            animation: fadeIn 2s;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+            animation: fadeIn 3s;
+        }
+        img {
+            width: 300px;
+            height: auto;
+            margin: 20px 0;
+            animation: bounce 2s infinite;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-20px); }
+            60% { transform: translateY(-10px); }
+        }
+        .heart {
+            color: red;
+            font-size: 2em;
+        }
+    </style>
 </head>
 <body>
-  
-   <!-- Ganti Audio di sini -->
-   <audio src="https://feeldreams.github.io/djikhlas.mp3" id="linkmp3" class="sembunyi"></audio>
-   
-   <div id="bodyblur">
-     <!-- Wallpaper --><img src="https://feeldreams.github.io/wp9.jpg" id="wallpaper"/><div id="beneranblur"></div>
-   </div>
-   
-   <div id='Content'>
-
-     <div id="kadoIn">
-       <!-- Tombol Surat --><img src="https://feeldreams.github.io/kadoin.png"/>
-     </div>
-     <p id="ket">! انقر على الهدية</p>
-
-     <div class="kumpulanstiker">
-         <!-- Stiker untuk Konten -->
-         <img src="https://feeldreams.github.io/bunga.gif" id="fotostiker"/>
-         <img src="https://feeldreams.github.io/pusn.gif" id="fotostiker1"/>
-         <img src="https://feeldreams.github.io/pandacoklat.gif" id="fotostiker2"/>
-         <img src="https://feeldreams.github.io/cilukba.gif" id="fotostiker3"/>
-         <img src="https://feeldreams.github.io/pandakuning.gif" id="fotostiker4"/>
-         <img src="https://feeldreams.github.io/emawh.gif" id="fotostiker5"/>
-         
-         <img src="https://feeldreams.github.io/pandacoklat.gif" id="fotostiker6"/>
-     </div>
-     
-     <p id="halo" class="halo"></p>
-     
-     <div><blockquote id='bq' data-text='㋡'>
-       <p id="kalimat">لدي شيء هنا 🤣❤️</p>
-
-       <p id="pesan1">انقر فوق 4 الحب أدناه 😆❤️</p>
-       <div id="kolombaru">
-         <li id="lv1">🤍</li>
-         <li id="lv2">🤍</li>
-         <li id="lv3">🤍</li>
-         <li id="lv4">🤍</li>
-       </div>
-
-       <p id="pesan2">Tunggu...</p>
-       <!-- Pesan -->
-       <p id="pesan3">🤣❤️ هناك شيء أجمل هنا </p>
-       <p id="pesan4">تهانينا على الاستفادة القصوى من هذا اليوم</p>
-       <p id="pesan5" class="gaya2">أشكرك على اهتمامك بي طوال هذا الوقت</p>
-       <p id="pesan6" class="gaya2">😆❤️ أتمنى أن أعيش طويلاً حتى أتمكن كل عام من تذكير بعضنا البعض </p>
-       <p id="pesan7" class="gaya2">كن صحيًا دائمًا</p>
-
-       <p id="pesan8" class="gaya2">أعني أن رائحتك كرائحة نساء الجنة</p>
-       <p id="pesan9" class="gaya2">أوه نعم، آمل أن تكون غدًا وفي المستقبل شخصًا أفضل... ❤️</p>
-       <p id="pesan10" class="gaya2">❤️😁لا تنسي أن تبتسمي وتكوني سعيدة إذا كانت لديك مشكلة فقط اتصلي بي إن شاء الله يمكنني المساعدة</p>
-
-       <!-- Tombol Lanjut -->
-       <p id="opsL">انقر للاستمرار</p>
-     </blockquote></div>
-
-     <!-- Tombol Kirim Pesan -->
-     <div id="Tombol"><a id="By">&#128140; تابع</a></div>
-
-     <!-- Pesan Tambahan -->
-     <p id="katatambahan" class="sembunyi"😜 ليست رائحتك كريهة هاها ولكنها كذبة </p>
-     
-     <!-- Pesan Ditolak -->
-     <div id="pesanditolak">
-       <img id="stikerditolak" src="https://feeldreams.github.io/weee.gif"/>
-       <p id="kataditolak">😜 لا بأس إذا كنت لا تريد ذلك</p>
-     </div>
-
-   </div>
-
-<script>
-  const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2300, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src); ftganti=0;fungsi=0;fungsiAwal=0;deffotostiker=fotostiker.src;function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-snowflake"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-snowflake"); if (heartArr.length > 100) {heartArr[0].remove()}},100);Content.style = "opacity:1;margin-top:16vh"; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
-  
-  document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.play();fungsiAwal=1;kadoIn.style="transition:all .8s ease;transform:scale(10);opacity:0";wallpaper.style="transform: scale(1.5);";ket.style="display:none";setTimeout(initengahan,300);setTimeout(inipesan,500)}}
-  
-  async function inipesan(){
-    var { value: nama } = await swals.fire({
-           title: 'أدخل اسمك', input: 'text',
-       });
-       if(nama && nama.length < 11){
-         window.nama = nama;
-         vketikhalo="أهلا  ✨جميلة" + nama + "أهلا";
-         mulainama();
-         } else {
-           await swals.fire('عفوًا', 'لا يمكن أن يكون الاسم فارغًا أو أطول من 10 أحرف');inipesan();
-    }
-  }
-
-  //Variable Pertanyaan Akhir
-  var tanya = 'هل تريد هدية؟ 😶❤️';
-  var opstanya = 'هيّا أجب 😆';
-  var tompositif = 'تريدها';
-  var tomnegatif = 'لا تريدها';
-    
-    async function menuju(){pesanwhatsapp = "شكراً لقولك " + nama + " ultah ><";await swals.fire('OK!', 'أرسل إجاباتك إلى واتسابي أو على إنستغرام', 'success');window.location = "https://api.whatsapp.com/send/?phone=%2B628111541514=&text=" + pesanwhatsapp;}
-</script>
-<script src="https://malasid.github.io/html/hbd.js"></script>
-<!-- Sampai Sini -->
+    <h1>Happy Valentine's Day!</h1>
+    <p>For you who are always in my heart.</p>
+    <img src="https://i.pinimg.com/736x/54/02/00/54020066602db03e026db7c2bd70df67.jpg" alt="Gambar Cinta">
+    <p class="heart">❤️❤️❤️</p>
+    <p>May our love always bloom forever!</p>
+    <p>Spread love and joy on this special day!</p>
 </body>
-  </html>
+</html>
